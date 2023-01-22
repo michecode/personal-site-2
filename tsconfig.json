@@ -1,36 +1,17 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "include": ["./src/**/*", "./test", "globals.d.ts"],
-  "exclude": ["dist", "node_modules"],
-
-  "compilerOptions": {
-    "rootDir": "src",
-
-    // target node v8+ (https://node.green/)
-    // the only missing feature is Array.prototype.values
-    "lib": ["es2017", "DOM", "DOM.Iterable"],
-    "target": "es2017",
-
-    "declaration": true,
-    "declarationDir": "types",
-
-    "noEmitOnError": true,
-    "noErrorTruncation": true,
-
-    // rollup takes care of these
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-
-    // Hides exports flagged with @internal from the d.ts output
-    "stripInternal": true,
-
-    // TODO: error all the things
-    //"strict": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "typeRoots": ["./node_modules/@types"]
-  }
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true
+	}
+	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
+	//
+	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+	// from the referenced tsconfig.json - TypeScript does not merge them in
 }
