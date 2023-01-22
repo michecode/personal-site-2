@@ -50,6 +50,7 @@
 	{focusable}
 	{width}
 	{height}
+	data-view-component="true"
 	viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 	>{@html displayIcon.svg}
 </svg>

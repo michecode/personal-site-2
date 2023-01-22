@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import Suminigashi from '$lib/background.png';
+	import Suminigashi from '$lib/images/background.png';
 	// for animation im going do a slow scale from 1 > 1.2 on the image i think.
 </script>
 
