@@ -7,7 +7,7 @@
 	export let key: 'alto' | 'chese' | 'lahvah';
 	export let handleClose: () => void;
 
-	const { title, body, image, isVideo, techStack, link } = projects[key];
+	const { title, body, image, techStack, link } = projects[key];
 
 	const handleKey = (e: KeyboardEvent) => {
 		if (e.key !== 'Escape') {
@@ -48,13 +48,8 @@
 			<!-- image + tags -->
 			<div class="flex flex-col">
 				<div class="shadow-xl">
-					{#if isVideo}
-						<!-- svelte-ignore a11y-media-has-caption -->
-						<video src={image} autoplay muted controls />
-					{:else}
-						<!-- svelte-ignore a11y-missing-attribute -->
-						<img src={image} />
-					{/if}
+					<!-- svelte-ignore a11y-missing-attribute -->
+					<img src={image} />
 				</div>
 				<div class="flex space-x-2 space-y-2 my-4 flex-wrap items-end">
 					{#each techStack as tech}
