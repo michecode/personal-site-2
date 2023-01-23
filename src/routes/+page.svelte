@@ -24,12 +24,12 @@
 <div class={`flex flex-col min-h-screen min-w-screen ${activeProject ? '' : 'justify-around'}`}>
 	<!-- body glob! goppy woppy shop-->
 	{#if showMain}
-		<div transition:slide class="bg-offwhite text-offblack mx-12 rounded-xl shadow-2xl">
+		<div transition:slide class="bg-offwhite text-offblack mx-6 lg:mx-12 rounded-xl shadow-2xl">
 			<div class="p-8">
-				<div class="flex flex-col lg:flex-row items-center justify-between">
+				<div class="flex flex-col lg:flex-row lg:items-center justify-between">
 					<Header />
 					<div>
-						<h6>projects:</h6>
+						<h6>some projects:</h6>
 						<div class="flex flex-col lg:flex-row lg:space-x-8 lg:mr-8">
 							<button
 								on:click={(e) => handleProjectClick('alto')}

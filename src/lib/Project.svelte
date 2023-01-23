@@ -25,7 +25,9 @@
 	});
 </script>
 
-<div class="bg-offwhite mt-[10vh] h-[90vh] text-offblack mx-12 rounded-t-2xl shadow-2xl">
+<div
+	class="bg-offwhite mt-[10vh] h-[90vh] text-offblack lg:mx-12 rounded-t-2xl shadow-2xl overflow-scroll"
+>
 	<div class="px-6 pt-4">
 		<!-- header -->
 		<div class="flex items-center justify-between mb-2">
@@ -44,7 +46,7 @@
 		<!-- body -->
 		<div class="grid grid-cols-1 lg:grid-cols-2">
 			<!-- article -->
-			<article class="mx-4">{body}</article>
+			<article class="mx-4 order-last lg:order-1">{body}</article>
 			<!-- image + tags -->
 			<div class="flex flex-col">
 				<div class="shadow-xl">
