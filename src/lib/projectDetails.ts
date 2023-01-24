@@ -7,18 +7,17 @@ export const projects = {
 		title: 'alto',
 		link: 'https://alto.earth',
 		image: AltoGif,
-		body: `Alto was my original inspiration to pursue web development. 
-		When I first started expanding my indoor array of plants I kept forgetting how to care for them and searching 
-		for multiple different plants caused a lot of friction. 
-		I decided to take it on as a project, simplify and reduce as much of that annoying friction as possible. 
-		I succeeded in that task, I loved the user flow and design. I was able to get back in touch my illustration skills 
-		and add those as I went along development. However, I got distracted and never filled out the database how I originally wanted 
-		to. Recently, I rekindled the inspiration and decided to rebuild it from the ground up with an entire new tech stack now 
-		that I have become much more experienced. I chose to use this as an opportunity to learn Svelte and Astro, in addition to  
-		my usual favorites, Tailwind and Typescript. When I finally revisited it, I realized how poorly I constructed the site the 
-		first time. I spent a lot of time grappling with a new design and framework but now that I'm up to speed I'm faster than I 
-		was before. Although I'm still working on this site I already love where it is and I am so excited to finish building and 
-		start filling out the database how I imagined it in the first place.
+		body: `Alto was my original inspiration to pursue web development. When I started to expand my indoor collection of plants I 
+		had so many different plants that I struggled to keep track of their care. I decided a plant care project was in need. 
+		My goals were to simplify the wealth of information on plants and to make the basics of plant care easily accessible with just 
+		the facts. It has become one of my favorite projects and I love the user flow and design. I was able to get back in touch 
+		with my illustration skills and add my own graphics as I went along with development. Since I started working at Charge Particles 
+		I got distracted from this project and ran out of time to build out the database how I originally wanted to. Recently though, 
+		I rekindled the inspiration and decided to redesign the UI and basics of this site from the ground up with an entirely new 
+		tech stack now that I have learned some much in my work experience. I also chose to use this project as an opportunity to 
+		learn Svelte and Astro, in addition to using my usual favorites, Tailwind and Typescript. Although I'm still working on this site 
+		I already love where it is and I am so excited to finish building and start filling out the database how I imagined it in 
+		the first place.
 		`,
 		techStack: [
 			{
@@ -47,16 +46,16 @@ export const projects = {
 		title: 'chese',
 		link: 'https://chese.onrender.com',
 		image: CheseDemo,
-		body: `My NFT marketplace dApp. I created this as my first project in Web3 and I'm quite proud of it. I kept the front end 
-		simple because my major focus was on learning the back end. Working with Web3, you must completely rethink how you design 
-		your sites and trying to cram so many new ways of thinking into my brain made this one of my more challenging sites to build at 
-		the time. The first hurdle was learning Solidity, Ethereum's native smart contract langauge. It's similar to JavaScript 
-		syntactically, however it operates more akin to lower level languages like C. It took me a while to scavenge the web to find 
-		any learning materials at the time of writing the contracts, it took a lot of trial and error and diving into odd 
-		forums across the internet. Once I conquered the back end, I needed to interface with it using a package called "ethers", this was 
-		my second largest challenge. Getting to know how to use ABIs, BigNumbers, and other Ethereum paradigms really slowed me down on 
-		this portion but I was able to get in the groove. The rest of the site was the fun part: building out the UI, incorporating 
-		API sources like Alchemy, and setting up IPFS integration for NFT minting was trivial compared to learning the earlier tech. 
+		body: `This is my NFT marketplace dApp. I created this as my first project in Web3 and I'm quite proud of it. I kept the front 
+		end simple because my major focus was on learning the back end. Working with Web3, you must completely rethink how you design 
+		websites and this was a new way of thinking for me. The first hurdle was learning Solidity, Ethereum's native smart contract 
+		language. It's similar to JavaScript syntactically, however, it operates more akin to lower-level languages like C. It took 
+		me a while to scavenge the web to find any learning materials at the time of writing the contracts, it took a lot of trial 
+		and error, and diving into odd forums across the internet. Once I conquered the back end, I needed to interface with it using 
+		a package called "ethers", this was my second largest challenge. Getting to know how to use ABIs, BigNumbers, and other 
+		Ethereum paradigms really slowed me down on this portion but I was able to get in the groove. The rest of the site was the 
+		fun part: building out the UI, incorporating API sources like Alchemy, and setting up IPFS integration for NFT minting was 
+		trivial compared to learning the earlier tech.
 		`,
 		techStack: [
 			{
