@@ -7,17 +7,17 @@ export const projects = {
 		title: 'alto',
 		link: 'https://alto.earth',
 		image: AltoGif,
-		body: `Alto was my original inspiration to pursue web development. When I started to expand my indoor collection of plants I 
-		had so many different plants that I struggled to keep track of their care. I decided a plant care project was in need. 
-		My goals were to simplify the wealth of information on plants and to make the basics of plant care easily accessible with just 
-		the facts. It has become one of my favorite projects and I love the user flow and design. I was able to get back in touch 
-		with my illustration skills and add my own graphics as I went along with development. Since I started working at Charge Particles 
-		I got distracted from this project and ran out of time to build out the database how I originally wanted to. Recently though, 
-		I rekindled the inspiration and decided to redesign the UI and basics of this site from the ground up with an entirely new 
-		tech stack now that I have learned some much in my work experience. I also chose to use this project as an opportunity to 
-		learn Svelte and Astro, in addition to using my usual favorites, Tailwind and Typescript. Although I'm still working on this site 
-		I already love where it is and I am so excited to finish building and start filling out the database how I imagined it in 
-		the first place.
+		body: `Alto was my original inspiration to pursue web development. When I started to expand my indoor collection of plants 
+		I had so many different varieties that I struggled to keep track of their care. I decided a project on houseplants would be 
+		my aim. My goals were to simplify the wealth of information on plants and to make the basics of plant care easily accessible 
+		with just the facts. It has become one of my favorite projects and I love the user flow and design. I was able to get back 
+		in touch with my illustration skills and add my own graphics as I progressed with development. Since, I have become distracted 
+		by my job at Charged Particles and ran out of time to build out the database how I originally planned. Recently though, I 
+		rekindled the inspiration and decided to redesign the UI and basics of Alto from the ground up with an entirely new tech 
+		stack now that I have learned so much from my work experience. I also chose to use this project as an opportunity to learn 
+		Svelte and Astro, in addition to my my using usual favorites, Tailwind and Typescript. Although I'm still working on this site I 
+		already love where it is headed and I am so excited to finish building and start filling out the database how I imagined it 
+		in the first place.
 		`,
 		techStack: [
 			{
