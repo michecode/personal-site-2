@@ -1,6 +1,6 @@
 <script lang="ts">
 	import HeaderLink from './HeaderLink.svelte';
-	import Resume from './resume-current.pdf';
+	import Resume from './resume-standard.pdf';
 </script>
 
 <div>

@@ -15,7 +15,7 @@ export const projects = {
 		by my job at Charged Particles and ran out of time to build out the database how I originally planned. Recently though, I 
 		rekindled the inspiration and decided to redesign the UI and basics of Alto from the ground up with an entirely new tech 
 		stack now that I have learned so much from my work experience. I also chose to use this project as an opportunity to learn 
-		Svelte and Astro, in addition to my my using usual favorites, Tailwind and Typescript. Although I'm still working on this site I 
+		Svelte and SvelteKit (previously Astro), in addition to using my usual favorites, Tailwind and Typescript. Although I'm still working on this site I 
 		already love where it is headed and I am so excited to finish building and start filling out the database how I imagined it 
 		in the first place.
 		`,
@@ -25,8 +25,8 @@ export const projects = {
 				logoKey: 'svelteLogo',
 			},
 			{
-				name: 'Astro',
-				logoKey: 'astroLogo',
+				name: 'SvelteKit',
+				logoKey: 'svelteLogo',
 			},
 			{
 				name: 'Tailwind',
