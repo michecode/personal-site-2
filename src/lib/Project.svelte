@@ -26,7 +26,7 @@
 </script>
 
 <div
-	class="bg-offwhite mt-[10vh] h-[90vh] text-offblack lg:mx-12 rounded-t-2xl shadow-2xl overflow-scroll"
+	class="bg-offwhite mt-[10vh] h-[90vh] text-offblack lg:mx-12 rounded-t-2xl shadow-2xl overflow-scroll scrollbar-hide"
 >
 	<div class="px-6 pt-4">
 		<!-- header -->
