@@ -1,6 +1,7 @@
 import CheseDemo from './images/chese-demo.gif';
 import LahvahGif from './images/lahvahscreencap.gif';
 import AltoGif from './images/altov2screencap.gif';
+import PufferGif from './images/puffer-v0.11.gif';
 
 export const projects = {
 	alto: {
@@ -125,6 +126,33 @@ export const projects = {
 			{
 				name: 'TypeScript',
 				logoKey: 'typescriptLogo',
+			},
+		],
+	},
+	puffer: {
+		title: 'puffer',
+		link: 'https://puffer-bzj.pages.dev',
+		image: PufferGif,
+		body: `My first project into generative art / creative coding! I was inspired to implement the "generalized smoking" algorithm
+		from a youtube video and set off to learn something completely new. P5.js admittedly took me a while wrap my ahead around, I
+		spent days trying to optimize where really I was limited by the frame rate. Although I lost some days, I learned about
+		many topics from performance profiling to new data structures. At first, I developed my own algorithm to search through the RGB
+		colorspace, which I was never really able to benchmark fully, instead I opted early on to switch to using a K-D Trees to further
+		speed up my color sampling. I was able to get the generation of a 512x512 piece down from 2 hours to just a couple seconds and 
+		now I'm progressing towards adding more features, a new sampling method, and image restructuring.
+		`,
+		techStack: [
+			{
+				name: 'Svelte',
+				logoKey: 'svelteLogo',
+			},
+			{
+				name: 'P5.js',
+				logoKey: 'package',
+			},
+			{
+				name: 'Tailwind',
+				logoKey: 'tailwindLogo',
 			},
 		],
 	},

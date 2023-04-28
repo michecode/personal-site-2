@@ -4,7 +4,7 @@
 	import TechChip from './TechChip.svelte';
 	import { projects } from './projectDetails';
 
-	export let key: 'alto' | 'chese' | 'lahvah';
+	export let key: 'alto' | 'chese' | 'puffer';
 	export let handleClose: () => void;
 
 	const { title, body, image, techStack, link } = projects[key];
