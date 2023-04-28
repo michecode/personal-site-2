@@ -4,9 +4,9 @@
 	import Project from '$lib/Project.svelte';
 
 	let showMain = true;
-	let activeProject: 'alto' | 'chese' | 'lahvah' | undefined;
+	let activeProject: 'alto' | 'chese' | 'puffer' | undefined;
 
-	const handleProjectClick = (project: 'alto' | 'chese' | 'lahvah') => {
+	const handleProjectClick = (project: 'alto' | 'chese' | 'puffer') => {
 		if (activeProject === project) {
 			handleClose();
 			return;
@@ -37,14 +37,14 @@
 								>alto</button
 							>
 							<button
+								on:click={(e) => handleProjectClick('puffer')}
+								class="p-4 rounded-lg font-bold text-3xl hover:shadow-2xl transition-shadow"
+								>puffer</button
+							>
+							<button
 								on:click={(e) => handleProjectClick('chese')}
 								class="p-4 rounded-lg font-bold text-3xl hover:shadow-2xl transition-shadow"
 								>chese</button
-							>
-							<button
-								on:click={(e) => handleProjectClick('lahvah')}
-								class="p-4 rounded-lg font-bold text-3xl hover:shadow-2xl transition-shadow"
-								>lahvah</button
 							>
 						</div>
 					</div>
